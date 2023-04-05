@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card__fundo {
+    height: 100px;
+    background-size: cover;
+    background-image: url("../IMG/redes-de-computadores-uov.jpg");
+    position: relative;
+}
+
+.card__img {
+    width: 100px;
+    /*display: block;
+    margin: auto;*/
+    position: absolute;
+    top: 5px;
+    left: 120px;
+}
+
+.card__descricao h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(red, green, blue);
+}
+
+.card__descricao p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.card__descricao span {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.card__botao button{
+    display: block;
+    margin: auto;
+    border: 1px solid rgb(3, 3, 100);
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 100);
+}
+
+.card__botao button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
