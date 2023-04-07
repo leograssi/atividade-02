@@ -9,7 +9,7 @@
 }
 
 
-.background {
+.fundo {
     background-image: url(../img/fundo.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,24 +38,24 @@ header {
 
 
 .logo {
-    color: #fff;
+    color: #ff0000;
     font-weight: 500;
     font-size: 1rem;
 }
 
 
-.cabeçalho-link {
+.menu {
     display: flex;
     gap: 3rem;
 }
 
-.cabeçalho-link a {
+.menu a {
     color: #ffffff;
     font-weight: 700;
     transition: 0.3s;
 }
 
-.cabeçalho-link a:hover {
+.menu a:hover {
     color: #ff0000;
 }
 
@@ -69,35 +69,35 @@ header {
     color: #ff0000;
 }
 
-.Meio {
+.Anuncio {
     padding: 7rem 0 0 8.5rem;
     line-height: 4rem;
 }
 
-.Meio P {
+.Anuncio P {
     color: #fff;
 }
 
-.Meio h1 {
+.Anuncio h1 {
     color: #fff;
     font-size: 4rem;
 
 }
 
-.Meio button {
+.Anuncio button {
     background-color: #ff0101;
     padding: 1rem 3rem 1rem 3rem;
     border: none;
     border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
+    color: #000000;
+    font-size:large;
     cursor: pointer;
     transition: 0.3s;
 
 }
 
-.Meio button:hover {
-    background-color: #111;
+.Anuncio button:hover {
+    background-color: #ffffff;
     transform: scaleY(1.2);
 }
 
@@ -112,9 +112,16 @@ section h1 {
 
 }
 
+section h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px;
+}
 
 
-.Container-roupas {
+
+.Computadores {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -125,28 +132,28 @@ section h1 {
 
 }
 
-.Container-roupas img:hover {
+.Computadores img:hover {
     transform: scale(0.9) translateY(-5px);
     cursor: pointer;
     transition: 0.3s;
 
 }
 
-.roupa img {
+.pc img {
     width: 250px;
     height: auto;
 }
 
-.roupa {
+.pc {
     background-color: #000000;
     color: #000;
 }
 
-.roupa p{
+.pc p{
     color: #fff;
 }
 
-.roupa h5{
+.pc h5{
     color: white;
 }
 
@@ -174,30 +181,30 @@ section h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
-.meio-contato h3 {
+.final h3 {
     color: #fff;
     font-size: 23px;
     margin-bottom: 1.6rem;
 }
 
-.meio-contato h5 {
+.final h5 {
     font-size: 15px;
     font-weight: 600;
     color: #555;
 }
 
-.meio-contato li {
+.final li {
     margin-bottom: 15px;
 }
 
-.meio-contato li a {
+.final li a {
     display: block;
     color: #555;
     font-weight: 600;
     transition: all .35s ease;
 }
 
-.last-text {
+.texto-final {
     text-align: center;
     background-color: #555;
     color: #fff;
